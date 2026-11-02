@@ -1,0 +1,27 @@
+name: dart_gen_l10n
+description: >-
+  Flutter's gen-l10n localizations generator for pure Dart packages: the same
+  ARB parsing, plurals, selects and formats, without the Flutter SDK.
+version: 0.1.0
+repository: https://github.com/Oleh-Sv/dart_gen_l10n
+topics:
+  - l10n
+  - i18n
+  - localization
+  - arb
+  - intl
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  file: ^7.0.0
+  intl: ">=0.19.0 <0.21.0"
+  meta: ^1.15.0
+  yaml: ^3.1.2
+
+dev_dependencies:
+  lints: ^5.0.0
+
+executables:
+  dart_gen_l10n:
